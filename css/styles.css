@@ -1,0 +1,18 @@
+.main {
+  background-color: #EEF0F1;
+}
+
+nav .navbar-toggler {
+  border: none;
+}
+
+nav .navbar-link a {
+  padding: 0px;
+}
+
+nav .navbar-input .form-control {
+  width: 450px;
+  background-color: #F9FAFA;
+  border-color: #99A3AD;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+
+nav{
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-link{
+        a{
+            padding: 0px;
+        }
+    }
+    .navbar-input{
+        .form-control{
+            width: 450px;
+            background-color: $input-bg-color;
+            border-color: $input-border-color;
+        }
+    }
+}
