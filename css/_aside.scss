@@ -1,0 +1,17 @@
+
+    .left-aside{
+        nav{
+            a{
+                color: black;
+                
+            }
+        }
+        
+        .card{
+            background-color: $body-bg-color;
+            border: none;
+            .card-title{
+                color:$accent-blue;
+            }
+        }
+    }

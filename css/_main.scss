@@ -1,0 +1,27 @@
+main{
+    .card{
+        .card-body{
+            .card-bio{
+                line-height: 15px;
+                .bio-name{
+                    color: $font-color;
+                    font-weight: 500;
+                    &:hover{
+                        color: black;
+                    }
+                }
+                p{
+                    font-weight: 200;
+                }
+            }
+            .card-title{
+                .title{
+                    color: black;
+                    &:hover{
+                        color: $accent-blue;
+                    }
+                }
+            }
+        }
+    }
+}

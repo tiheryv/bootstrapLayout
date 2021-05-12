@@ -1,18 +1,48 @@
-.main {
+body {
   background-color: #EEF0F1;
 }
 
-nav .navbar-toggler {
+nav .navbar-input .form-control {
+  width: 30vw;
+  background-color: #F9FAFA;
+  border-color: #99A3AD;
+}
+
+.left-aside nav a {
+  color: black;
+}
+
+.left-aside .card {
+  background-color: #EEF0F1;
   border: none;
 }
 
-nav .navbar-link a {
-  padding: 0px;
+.left-aside .card .card-title {
+  color: #3C4BE0;
 }
 
-nav .navbar-input .form-control {
-  width: 450px;
-  background-color: #F9FAFA;
-  border-color: #99A3AD;
+main .card .card-body .card-bio {
+  line-height: 15px;
+}
+
+main .card .card-body .card-bio .bio-name {
+  color: #4D5760;
+  font-weight: 500;
+}
+
+main .card .card-body .card-bio .bio-name:hover {
+  color: black;
+}
+
+main .card .card-body .card-bio p {
+  font-weight: 200;
+}
+
+main .card .card-body .card-title .title {
+  color: black;
+}
+
+main .card .card-body .card-title .title:hover {
+  color: #3C4BE0;
 }
 /*# sourceMappingURL=styles.css.map */
