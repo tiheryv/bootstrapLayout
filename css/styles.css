@@ -38,11 +38,76 @@ main .card .card-body .card-bio p {
   font-weight: 200;
 }
 
-main .card .card-body .card-title .title {
+main .card .card-body .card-content .title {
   color: black;
 }
 
-main .card .card-body .card-title .title:hover {
+main .card .card-body .card-content .title:hover {
   color: #3C4BE0;
+}
+
+main .card .card-body .card-content .tags a {
+  color: #4D5760;
+}
+
+main .card .card-body .card-content .tags a:hover {
+  color: black;
+}
+
+main .card .card-body .card-content #react {
+  background: #091b47;
+  color: #b2ffe1;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+main .card .card-body .card-content #react span {
+  color: gray;
+}
+
+main .card .card-body .card-interaction .statistics button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  color: #4D5760;
+}
+
+main .card .card-body .card-interaction .statistics button img {
+  height: 20px;
+  margin: 4px 0;
+}
+
+main .card .card-body .card-interaction .statistics button span {
+  font-size: 14px;
+}
+
+main .card .card-body .card-interaction .statistics button:hover {
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  color: black;
+}
+
+main .card .card-body .card-interaction .statistics button:hover img {
+  color: black;
+}
+
+main .card .card-body .card-interaction .saving span {
+  font-size: 11.2px;
+  margin-right: 5px;
+}
+
+main .card .card-body .card-interaction .saving button {
+  background-color: #D2D6DB;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4D5760;
+}
+
+main .card .card-body .card-interaction .saving button:hover {
+  background-color: #B5BDC4;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */

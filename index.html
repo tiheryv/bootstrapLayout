@@ -91,7 +91,7 @@
 
                 <main class="col-12 col-md-8 col-lg-7">
                     <nav class="d-flex justify-content-between items-center">
-                        <h1>Posts</h1>
+                        <h1 class="h5">Posts</h1>
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
                               <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home">Feed</a>
@@ -125,8 +125,7 @@
 
                                 <div class="card-bio mx-2">
                                     <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Last updated
-                                                3 mins ago</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 26 (2 days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
@@ -138,22 +137,29 @@
                                 </h3>
 
                                 <p class="tags"><small class="text-muted">
-                                        <span>#</span><a href="" style="text-decoration: none;">react</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">redux</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">typescript</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">spotify</a>
+                                        <a href="" style="text-decoration: none;" id="react"><span>#</span>react</a> 
+                                        <a href="" style="text-decoration: none;"><span>#</span>redux</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>typescript</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>spotify</a>
                                     </small></p>
-
-                                <div>
+                            </div>
+                            <div class="card-interaction d-flex justify-content-between items-center mx-4">
+                                <div class="statistics">
                                     <button>
-                                        <img src="icons/heart-icon.svg" alt="">
-                                        <span>110 reactions</span>
+                                        <img src="icons/heart-icon.svg" alt=""
+                                        >
+                                        <span>44 reactions</span>
                                     </button>
 
                                     <button>
-                                        <img src="icons/comment-icon.svg" alt="">
-                                        <span>20 coments</span>
+                                        <img src="icons/comment-icon.svg" alt="" >
+                                        <span>14 coments</span>
                                     </button>
+                                </div>
+
+                                <div class="saving">
+                                    <span><small class="text-muted"> 10 min read</small></span>
+                                    <button>Save</button>
                                 </div>
                             </div>
 
@@ -166,40 +172,92 @@
                         <section class="card-body">
 
                             <div class="card-profile d-flex">
-                                <img src="images/hannah-profile.jpg" alt="" class="rounded-circle " width="35"
+                                <img src="images/profile-example-1.jpeg" alt="" class="rounded-circle " width="35"
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Last updated
-                                                3 mins ago</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Fayaz Ahmed</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 27 (1 day ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
-                                <h3 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">Get ready for your React
-                                            Interview</b></a>
-                                </h3>
+                                <h4 class="title">
+                                    <a href="" style="text-decoration: none;"><b class="title">The 7 Most Popular DEV Post from the Past Week</b></a>
+                                </h4>
 
                                 <p class="tags"><small class="text-muted">
-                                        <span>#</span><a href="" style="text-decoration: none;">react</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">redux</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">typescript</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">spotify</a>
-                                    </small></p>
+                                        <span>#</span><a href="" style="text-decoration: none;">icymi</a>
+                                      
+                                    </small></p> 
+                            </div>
 
-                                <div>
+                            <div class="card-interaction d-flex justify-content-between mx-4">
+                                <div class="statistics">
                                     <button>
                                         <img src="icons/heart-icon.svg" alt="">
-                                        <span>110 reactions</span>
+                                        <span>80 reactions</span>
                                     </button>
 
                                     <button>
                                         <img src="icons/comment-icon.svg" alt="">
-                                        <span>20 coments</span>
+                                        <span>6 coments</span>
                                     </button>
+                                </div>
+
+                                <div class="saving">
+                                    <span><small class="text-muted"> 18 min read</small></span>
+                                    <button>Save</button>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </article>
+
+                    <article class="card mb-3">
+
+                        <section class="card-body">
+ 
+                            <div class="card-profile d-flex">
+                                <img src="images/profile-example-2.jpeg" alt="" class="rounded-circle " width="35"
+                                    height="35">
+
+                                <div class="card-bio mx-2">
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Peter</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">April 26 (2 days ago)</small></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content mx-4">
+                                <h4 class="title">
+                                    <a href="" style="text-decoration: none;"><b class="title">165+ Developer Resources I Discovered in 2020-2021</b></a>
+                                </h4>
+
+                                <p class="tags"><small class="text-muted">
+                                        <a href="" style="text-decoration: none;" id="react"><span>#</span>react</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>redux</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>typescript</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>spotify</a>
+                                    </small></p>
+                            </div>
+                            <div class="card-interaction d-flex justify-content-between mx-4">
+                                <div class="statistics">
+                                    <button>
+                                        <img src="icons/heart-icon.svg" alt="">
+                                        <span> 65 reactions</span>
+                                    </button>
+
+                                    <button>
+                                        <img src="icons/comment-icon.svg" alt="">
+                                        <span>10 coments</span>
+                                    </button>
+                                </div>
+
+                                <div class="saving">
+                                    <span><small class="text-muted"> 3 min read</small></span>
+                                    <button>Save</button>
                                 </div>
                             </div>
 
@@ -212,40 +270,44 @@
                         <section class="card-body">
 
                             <div class="card-profile d-flex">
-                                <img src="images/hannah-profile.jpg" alt="" class="rounded-circle " width="35"
+                                <img src="images/profile-example-3.jpeg" alt="" class="rounded-circle " width="35"
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Last updated
-                                                3 mins ago</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Krishna Kakade</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">April 26 (2 days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
-                                <h3 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">Get ready for your React
-                                            Interview</b></a>
-                                </h3>
+                                <h4 class="title">
+                                    <a href="" style="text-decoration: none;"><b class="title">How Does The Web Work?</b></a>
+                                </h4>
 
                                 <p class="tags"><small class="text-muted">
-                                        <span>#</span><a href="" style="text-decoration: none;">react</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">redux</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">typescript</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">spotify</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>html</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>css</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>javascript</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>webdev</a>
                                     </small></p>
-
-                                <div>
+                            </div>
+                            <div class="card-interaction d-flex justify-content-between mx-4">
+                                <div class="statistics">
                                     <button>
                                         <img src="icons/heart-icon.svg" alt="">
-                                        <span>110 reactions</span>
+                                        <span> 98 reactions</span>
                                     </button>
 
                                     <button>
                                         <img src="icons/comment-icon.svg" alt="">
-                                        <span>20 coments</span>
+                                        <span>22 coments</span>
                                     </button>
+                                </div>
+
+                                <div class="saving">
+                                    <span><small class="text-muted">18 min read</small></span>
+                                    <button>Save</button>
                                 </div>
                             </div>
 
@@ -258,86 +320,44 @@
                         <section class="card-body">
 
                             <div class="card-profile d-flex">
-                                <img src="images/hannah-profile.jpg" alt="" class="rounded-circle " width="35"
+                                <img src="images/pawel-profile.jpg" alt="" class="rounded-circle " width="35"
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Last updated
-                                                3 mins ago</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Mathias Vante</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 26 (2 days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
-                                <h3 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">Get ready for your React
-                                            Interview</b></a>
-                                </h3>
+                                <h4 class="title">
+                                    <a href="" style="text-decoration: none;"><b class="title">A painless guide to undesrstanding CSS positioniong</b></a>
+                                </h4>
 
                                 <p class="tags"><small class="text-muted">
-                                        <span>#</span><a href="" style="text-decoration: none;">react</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">redux</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">typescript</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">spotify</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>css</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>webdev</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>beginners</a>
+                                        <a href="" style="text-decoration: none;"><span>#</span>codenewbie</a>
                                     </small></p>
-
-                                <div>
+                            </div>
+                            <div class="card-interaction d-flex justify-content-between mx-4">
+                                <div class="statistics">
                                     <button>
                                         <img src="icons/heart-icon.svg" alt="">
-                                        <span>110 reactions</span>
+                                        <span> 210 reactions</span>
                                     </button>
 
                                     <button>
                                         <img src="icons/comment-icon.svg" alt="">
-                                        <span>20 coments</span>
+                                        <span>50 coments</span>
                                     </button>
                                 </div>
-                            </div>
 
-                        </section>
-
-                    </article>
-
-                    <article class="card mb-3">
-
-                        <section class="card-body">
-
-                            <div class="card-profile d-flex">
-                                <img src="images/hannah-profile.jpg" alt="" class="rounded-circle " width="35"
-                                    height="35">
-
-                                <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Last updated
-                                                3 mins ago</small></a>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="card-content mx-4">
-                                <h3 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">Get ready for your React
-                                            Interview</b></a>
-                                </h3>
-
-                                <p class="tags"><small class="text-muted">
-                                        <span>#</span><a href="" style="text-decoration: none;">react</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">redux</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">typescript</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">spotify</a>
-                                    </small></p>
-
-                                <div>
-                                    <button>
-                                        <img src="icons/heart-icon.svg" alt="">
-                                        <span>110 reactions</span>
-                                    </button>
-
-                                    <button>
-                                        <img src="icons/comment-icon.svg" alt="">
-                                        <span>20 coments</span>
-                                    </button>
+                                <div class="saving">
+                                    <span><small class="text-muted">8 min read</small></span>
+                                    <button>Save</button>
                                 </div>
                             </div>
 
@@ -350,43 +370,45 @@
                         <section class="card-body">
 
                             <div class="card-profile d-flex">
-                                <img src="images/hannah-profile.jpg" alt="" class="rounded-circle " width="35"
+                                <img src="images/profile-example-4.png" alt="" class="rounded-circle " width="35"
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Last updated
-                                                3 mins ago</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Conan O'Neil</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 25 (3 days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
                                 <h3 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">Get ready for your React
-                                            Interview</b></a>
+                                <a href="" style="text-decoration: none;"><b class="title">I made a small weekend project, thoughts?</b></a>
                                 </h3>
 
                                 <p class="tags"><small class="text-muted">
-                                        <span>#</span><a href="" style="text-decoration: none;">react</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">redux</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">typescript</a>
-                                        <span>#</span><a href="" style="text-decoration: none;">spotify</a>
+                                       <a href="" style="text-decoration: none;"> <span>#</span>webdev</a>
+                                       <a href="" style="text-decoration: none;"> <span>#</span>javascript</a>
+                                        
                                     </small></p>
-
-                                <div>
+                            </div>
+                            <div class="card-interaction d-flex justify-content-between mx-4">
+                                <div class="statistics">
                                     <button>
                                         <img src="icons/heart-icon.svg" alt="">
-                                        <span>110 reactions</span>
+                                        <span> 59 reactions</span>
                                     </button>
 
                                     <button>
                                         <img src="icons/comment-icon.svg" alt="">
-                                        <span>20 coments</span>
+                                        <span>40 coments</span>
                                     </button>
                                 </div>
-                            </div>
 
+                                <div class="saving">
+                                    <span><small class="text-muted"> 2 min read</small></span>
+                                    <button>Save</button>
+                                </div>
+                            </div>
                         </section>
 
                     </article>
