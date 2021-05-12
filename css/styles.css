@@ -2,10 +2,56 @@ body {
   background-color: #EEF0F1;
 }
 
+nav .navbar-input .toglee {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
+nav .navbar-input .toglee:hover {
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+  background-color: #F6F6F6;
+  border-radius: 50%;
+}
+
+nav .navbar-input .navbar-logo:hover {
+  cursor: pointer;
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
 nav .navbar-input .form-control {
   width: 30vw;
   background-color: #F9FAFA;
   border-color: #99A3AD;
+}
+
+nav .navbar-buttons .btn {
+  background-color: #3B49DF;
+  color: white;
+  font-weight: 500;
+}
+
+nav .navbar-buttons .btn:hover {
+  background-color: #323EBE;
+}
+
+nav .navbar-buttons .nav-link.profile:hover {
+  background-color: #F6F6F6;
+  border-radius: 50%;
+}
+
+nav .navbar-buttons .nav-link.icon {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+  margin: 0 5px;
+}
+
+nav .navbar-buttons .nav-link.icon:hover {
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+  background-color: #F6F6F6;
+  border-radius: 50%;
 }
 
 .left-aside nav a {
@@ -57,8 +103,8 @@ main .card .card-body .card-content .tags a:hover {
 main .card .card-body .card-content #react {
   background: #091b47;
   color: #b2ffe1;
-  padding: 4px;
-  border-radius: 4px;
+  padding: 2px 5px;
+  border-radius: 5px;
 }
 
 main .card .card-body .card-content #react span {

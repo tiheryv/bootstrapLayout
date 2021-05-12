@@ -1,10 +1,57 @@
 nav{
     .navbar-input{
-      
+        .toglee{
+            filter: opacity(0.8);
+            &:hover{
+                filter: opacity(1);
+                background-color:$hover-interaction-bg-color;
+                border-radius: 50%;
+                
+            }
+        }
+        .navbar-logo{
+           
+            &:hover{
+                cursor: pointer;
+                filter: opacity(.8);
+            }
+        }
         .form-control{
             width: 30vw;
             background-color: $input-bg-color;
             border-color: $input-border-color;
         }
     }
+    .navbar-buttons{
+            .btn{
+                background-color: $blue-button;
+                color: white;
+                font-weight: 500;
+                &:hover{
+                    background-color: $hover-blue-button;
+                }
+
+            }
+            .nav-link{
+                &.profile{
+                    &:hover{
+                        background-color:$hover-interaction-bg-color;
+                        border-radius: 50%;
+                    }
+                }
+                &.icon{
+                    filter: opacity(0.8);
+                    margin: 0 5px;
+                    &:hover{
+                        filter: opacity(1);
+                        background-color:$hover-interaction-bg-color;
+                        border-radius: 50%;
+                    }
+                }
+                
+            }
+        
+    }
+
+    
 }

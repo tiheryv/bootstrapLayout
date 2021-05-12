@@ -17,41 +17,30 @@
         <div class="container">
 
             <div class="navbar-input d-flex">
-                <img src="icons/toggle-icon.svg" alt="" class="d-md-none me-2">
-                <img src="icons/logo.svg" class="navbar-logo me-2" alt="">
-                <input class="d-none d-md-block form-control me-2" type="search" placeholder="Search"
+                <img src="icons/toggle-icon.svg" alt="" class="toglee d-md-none px-2">
+                <img src="icons/logo.svg" class="navbar-logo mx-3" alt="">
+                <input class="form-control d-none d-md-block  me-2" type="search" placeholder="Search"
                     aria-label="Search">
             </div>
 
 
-            <ul class="d-flex mb-0" style="list-style:none;">
-
-                <li class="nav-item">
-                    <a class="btn btn-primary d-none d-md-block" href="#" role="button">
-                        <b>Write a post</b>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-md-none" aria-current="page" href="#">
-                        <img src="icons/search-icon.svg" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">
-                        <img src="icons/message-icon.svg" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <img src="icons/notification-icon.svg" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <img src="images/me-profile.jpeg" alt="" class="rounded-circle" width="30" height="30">
-                    </a>
-                </li>
-            </ul>
+            <div class="navbar-buttons d-flex align-items-center mb-0" style="list-style:none;">
+                <a class="btn d-none d-md-block mx-2" href="#" role="button">
+                    <span>Write a post</span>
+                </a>            
+                <a class="nav-link icon d-md-none p-2" href="#">
+                    <img src="icons/search-icon.svg" alt="">
+                </a>
+                <a class="nav-link icon p-2" href="#">
+                    <img src="icons/message-icon.svg" alt="">
+                </a>
+                <a class="nav-link icon p-2" href="#">
+                    <img src="icons/notification-icon.svg" alt="">
+                </a>
+                <a class="nav-link profile p-2" href="#">
+                    <img src="images/me-profile.jpeg" alt="" class="rounded-circle" width="30" height="30">
+                </a>        
+            </div>
         </div>
 
     </nav>
