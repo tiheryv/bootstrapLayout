@@ -27,7 +27,7 @@
             <div class="navbar-buttons d-flex align-items-center mb-0" style="list-style:none;">
                 <a class="btn d-none d-md-block mx-2" href="#" role="button">
                     <span>Write a post</span>
-                </a>            
+                </a>
                 <a class="nav-link icon d-md-none p-2" href="#">
                     <img src="icons/search-icon.svg" alt="">
                 </a>
@@ -39,16 +39,15 @@
                 </a>
                 <a class="nav-link profile p-2" href="#">
                     <img src="images/me-profile.jpeg" alt="" class="rounded-circle" width="30" height="30">
-                </a>        
+                </a>
             </div>
         </div>
 
     </nav>
-
     <div class="container-fluid">
-        <div class="container">
+        <div class="container ">
             <div class="row">
-                <aside class="d-none d-md-block col-md-4 col-lg-2 left-aside">
+                <aside class="left-aside d-none d-md-block col-md-4 col-lg-2">
                     <nav class="nav flex-column">
                         <a class="nav-link" href="#"><img src="icons/home-emoji.svg" alt=""> Home</a>
                         <a class="nav-link" href="#"><img src="icons/reading-emoji.svg" alt=""> Reading List</a>
@@ -79,30 +78,52 @@
                 </aside>
 
                 <main class="col-12 col-md-8 col-lg-7">
-                    <nav class="d-flex justify-content-between items-center">
-                        <h1 class="h5">Posts</h1>
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                              <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home">Feed</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile">Week</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact">Month</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Year</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Infinity</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Latest</a>
-                            </li>
-                          </ul>    
-                    </nav>
-                                       
+                    <header>
+                        <nav class="nav-main d-flex justify-content-between align-items-center">
+                            <h1 class="h5">Posts</h1>
+                            <ul class="nav nav-pills mb-3 pt-2" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+
+                                    <a class="nav-link btn btn-primary align-content-center" id="pills-home-tab"
+                                        data-toggle="pill" href="#pills-home" role="tab"
+                                        aria-controls="pills-home">Feed</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                        role="tab" aria-controls="pills-profile">Week</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                                        role="tab" aria-controls="pills-contact">Month</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                        role="tab" aria-controls="pills-home" aria-selected="true">Year</a>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                        role="tab" aria-controls="pills-home" aria-selected="true">Infinity</a>
+
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                        role="tab" aria-controls="pills-home" aria-selected="true">Latest</a>
+
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+
                     <article class="card mb-3">
                         <img src="images/react-article.jpg" class="card-img-top" alt="...">
 
@@ -114,7 +135,8 @@
 
                                 <div class="card-bio mx-2">
                                     <a href="" class="bio-name" style="text-decoration: none;"><small>Hannah</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 26 (2 days ago)</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 26 (2
+                                                days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
@@ -126,7 +148,7 @@
                                 </h3>
 
                                 <p class="tags"><small class="text-muted">
-                                        <a href="" style="text-decoration: none;" id="react"><span>#</span>react</a> 
+                                        <a href="" style="text-decoration: none;" id="react"><span>#</span>react</a>
                                         <a href="" style="text-decoration: none;"><span>#</span>redux</a>
                                         <a href="" style="text-decoration: none;"><span>#</span>typescript</a>
                                         <a href="" style="text-decoration: none;"><span>#</span>spotify</a>
@@ -135,13 +157,12 @@
                             <div class="card-interaction d-flex justify-content-between items-center mx-4">
                                 <div class="statistics">
                                     <button>
-                                        <img src="icons/heart-icon.svg" alt=""
-                                        >
+                                        <img src="icons/heart-icon.svg" alt="">
                                         <span>44 reactions</span>
                                     </button>
 
                                     <button>
-                                        <img src="icons/comment-icon.svg" alt="" >
+                                        <img src="icons/comment-icon.svg" alt="">
                                         <span>14 coments</span>
                                     </button>
                                 </div>
@@ -157,7 +178,7 @@
                     </article>
 
                     <article class="card mb-3">
-                        
+
                         <section class="card-body">
 
                             <div class="card-profile d-flex">
@@ -165,21 +186,24 @@
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Fayaz Ahmed</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 27 (1 day ago)</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Fayaz
+                                            Ahmed</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 27 (1 day
+                                                ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
                                 <h4 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">The 7 Most Popular DEV Post from the Past Week</b></a>
+                                    <a href="" style="text-decoration: none;"><b class="title">The 7 Most Popular DEV
+                                            Post from the Past Week</b></a>
                                 </h4>
 
                                 <p class="tags"><small class="text-muted">
                                         <span>#</span><a href="" style="text-decoration: none;">icymi</a>
-                                      
-                                    </small></p> 
+
+                                    </small></p>
                             </div>
 
                             <div class="card-interaction d-flex justify-content-between mx-4">
@@ -208,20 +232,22 @@
                     <article class="card mb-3">
 
                         <section class="card-body">
- 
+
                             <div class="card-profile d-flex">
                                 <img src="images/profile-example-2.jpeg" alt="" class="rounded-circle " width="35"
                                     height="35">
 
                                 <div class="card-bio mx-2">
                                     <a href="" class="bio-name" style="text-decoration: none;"><small>Peter</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">April 26 (2 days ago)</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">April 26 (2
+                                                days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
                             <div class="card-content mx-4">
                                 <h4 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">165+ Developer Resources I Discovered in 2020-2021</b></a>
+                                    <a href="" style="text-decoration: none;"><b class="title">165+ Developer Resources
+                                            I Discovered in 2020-2021</b></a>
                                 </h4>
 
                                 <p class="tags"><small class="text-muted">
@@ -263,15 +289,18 @@
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Krishna Kakade</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">April 26 (2 days ago)</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Krishna
+                                            Kakade</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">April 26 (2
+                                                days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
                                 <h4 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">How Does The Web Work?</b></a>
+                                    <a href="" style="text-decoration: none;"><b class="title">How Does The Web
+                                            Work?</b></a>
                                 </h4>
 
                                 <p class="tags"><small class="text-muted">
@@ -313,15 +342,18 @@
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Mathias Vante</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 26 (2 days ago)</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Mathias
+                                            Vante</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 26 (2
+                                                days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
                                 <h4 class="title">
-                                    <a href="" style="text-decoration: none;"><b class="title">A painless guide to undesrstanding CSS positioniong</b></a>
+                                    <a href="" style="text-decoration: none;"><b class="title">A painless guide to
+                                            undesrstanding CSS positioniong</b></a>
                                 </h4>
 
                                 <p class="tags"><small class="text-muted">
@@ -355,7 +387,7 @@
                     </article>
 
                     <article class="card mb-3">
-                    
+
                         <section class="card-body">
 
                             <div class="card-profile d-flex">
@@ -363,21 +395,24 @@
                                     height="35">
 
                                 <div class="card-bio mx-2">
-                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Conan O'Neil</small></a>
-                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 25 (3 days ago)</small></a>
+                                    <a href="" class="bio-name" style="text-decoration: none;"><small>Conan
+                                            O'Neil</small></a>
+                                    <p><a href="" style="text-decoration: none;"><small class="text-muted">Apr 25 (3
+                                                days ago)</small></a>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="card-content mx-4">
                                 <h3 class="title">
-                                <a href="" style="text-decoration: none;"><b class="title">I made a small weekend project, thoughts?</b></a>
+                                    <a href="" style="text-decoration: none;"><b class="title">I made a small weekend
+                                            project, thoughts?</b></a>
                                 </h3>
 
                                 <p class="tags"><small class="text-muted">
-                                       <a href="" style="text-decoration: none;"> <span>#</span>webdev</a>
-                                       <a href="" style="text-decoration: none;"> <span>#</span>javascript</a>
-                                        
+                                        <a href="" style="text-decoration: none;"> <span>#</span>webdev</a>
+                                        <a href="" style="text-decoration: none;"> <span>#</span>javascript</a>
+
                                     </small></p>
                             </div>
                             <div class="card-interaction d-flex justify-content-between mx-4">
@@ -402,22 +437,25 @@
 
                     </article>
 
-                    
+
                 </main>
 
                 <aside class="d-none d-lg-block col-lg-3 border border-success border-2">
                     <div class="list-group">
                         <button type="button" class="list-group-item list-group-item-action active">
-                          Cras justo odio </button>
-                        
-                        <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+                            Cras justo odio </button>
+
+                        <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis
+                            in</button>
                         <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-                        <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
-                        <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
-                      </div>
-<!-- Tab panes -->
-                      
-                       
+                        <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur
+                            ac</button>
+                        <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at
+                            eros</button>
+                    </div>
+                    <!-- Tab panes -->
+
+
                 </aside>
 
             </div>

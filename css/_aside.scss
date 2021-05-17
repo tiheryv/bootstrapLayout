@@ -3,10 +3,24 @@
         nav{
             a{
                 color: black;
-                
+                &:hover{
+                    background-color: $hover-nav-interaction;
+                    color:$accent-blue;
+                    border-radius: 5px;
+                }
             }
         }
-        
+        .my-profile-nav{
+            a{
+                filter: opacity(0.8);
+                &:hover{
+                    background-color: $hover-nav-interaction;
+                }
+                
+            }
+                
+            
+        }
         .card{
             background-color: $body-bg-color;
             border: none;
