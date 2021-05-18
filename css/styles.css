@@ -82,6 +82,25 @@ nav .navbar-buttons .nav-link.icon:hover {
   color: #3C4BE0;
 }
 
+.right-aside .list-group .list-group-item a {
+  text-decoration: none;
+  color: #3C4BE0;
+  font-weight: 500;
+}
+
+.right-aside .list-group .list-group-item h5 {
+  font-weight: 700;
+}
+
+.right-aside .list-group .list-group-item p {
+  margin: 0;
+}
+
+.right-aside .list-group .list-group-item span {
+  background-color: #3B49DF;
+  color: white;
+}
+
 main .nav-main h1 {
   font-weight: bold;
 }

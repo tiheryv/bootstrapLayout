@@ -29,3 +29,27 @@
             }
         }
     }
+
+    .right-aside{
+        .list-group{
+            .list-group-item{
+                    a{
+                        text-decoration: none;
+                        color: $accent-blue;
+                        font-weight: 500;
+                    }
+                    h5{
+                        font-weight: 700;
+                    }
+                    p{
+                        margin: 0;
+                    }
+                    span{
+                        background-color:$blue-button;
+                        color: white;
+                    }
+                    
+                
+            }
+        }
+    }
