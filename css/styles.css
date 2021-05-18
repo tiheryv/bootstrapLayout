@@ -82,6 +82,15 @@ nav .navbar-buttons .nav-link.icon:hover {
   color: #3C4BE0;
 }
 
+.right-aside .list-group .list-group-item {
+  background-color: #F9FAFA;
+  cursor: pointer;
+}
+
+.right-aside .list-group .list-group-item:hover {
+  background-color: white;
+}
+
 .right-aside .list-group .list-group-item a {
   text-decoration: none;
   color: #3C4BE0;
@@ -115,6 +124,25 @@ main .nav-main .nav li a {
 main .nav-main .nav li a:hover {
   color: #3C4BE0;
   background-color: #DCDFEF;
+}
+
+main .nav-main .nav li a.active {
+  font-weight: 600;
+  color: black;
+  margin: 5px 8px;
+  padding: 8px 0 5px 0;
+  background-color: #EEF0F1;
+  border-bottom: 3px solid #3B49DF;
+  border-radius: 0;
+}
+
+main .nav-main .nav li a.active:hover {
+  margin: 5px 0;
+  padding: 8px 8px 5px 8px;
+  background-color: #DCDFEF;
+  border-radius: .20rem;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 main .card .card-body .card-bio {
